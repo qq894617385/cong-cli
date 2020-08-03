@@ -1,0 +1,21 @@
+{
+  "name": "i61-vue-webpack",
+  "version": "1.0.0",
+  "description": "'i61-vue框架'",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.2"
+  },
+  "bin": {
+    "cong-cli": "main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
