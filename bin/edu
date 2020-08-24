@@ -1,26 +1,24 @@
 #!/usr/bin/env node
-process.env.NODE_PATH = __dirname + '/./node_modules/'
+// process.env.NODE_PATH = __dirname + '../node_modules/'
  
 const program = require('commander')
  
-/* 项目指令 */
-
 program
-  .version(require('./package.json').version)
+  .version(require('../package.json').version)
   .usage('<command> [options]')
 program
   .command('list')
   .description('查看所有的模版')
   .alias('l')
   .action(() => {
-    require('./lib/list')()
+    require('../lib/list')()
   })
 program
   .command('init')
   .description('生成一个新项目')
   .alias('i')
   .action(() => {
-    require('./lib/init')()
+    require('../lib/init')()
   })
 program
   .parse(process.argv)

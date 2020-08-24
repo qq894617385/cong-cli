@@ -1,7 +1,7 @@
 {
-  "name": "i61-vue-webpack",
+  "name": "cong-vue-cli",
   "version": "1.0.0",
-  "description": "'i61-vue框架'",
+  "description": "'cong后台框架'",
   "main": "index.js",
   "scripts": {
     "test": "test"
@@ -11,7 +11,8 @@
     "commander": "^3.0.2",
     "download-git-repo": "^2.0.0",
     "inquirer": "^7.0.0",
-    "ora": "^4.0.2"
+    "ora": "^4.0.2",
+    "request":"^2.88.0"
   },
   "bin": {
     "cong-cli": "main.js"
