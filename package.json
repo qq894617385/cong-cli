@@ -4,7 +4,8 @@
   "description": "'cong后台框架'",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test.js"
+    "test": "node ./test.js",
+    "list": "node bin/edu list"
   },
   "dependencies": {
     "chalk": "^2.4.2",
